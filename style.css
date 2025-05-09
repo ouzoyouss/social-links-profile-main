@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'MyFont', sans-serif;
+    font-weight: 800;
+}
+
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('/assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-weight: 500;
+}
+
+
+
+body {
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    border-radius:50%;
+    size: 1px;
+    padding-top:25px;
+}
+
+.ch {
+    background-color: rgb(34, 32, 32);
+    color: rgb(92, 92, 92);
+    border-radius: 20px;
+    margin-top: 200px;
+    size: 50px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+a {
+    text-decoration: none;
+    color: white;   
+}
+
+.social-link {
+    background-color: #3f3c3c;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+.social-link:hover {
+    background-color: rgba(172, 255, 47, 0.801);
+    a {
+            color: black;
+
+    }
+}
+h2{
+    color: white;
+}
+.location{
+    color:  rgba(172, 255, 47, 0.801);
+}
+.bio{
+    color: white;
+}
